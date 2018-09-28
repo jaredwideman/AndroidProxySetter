@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
 			return false;
 		}
 		if (!intent.hasExtra(ProxyChangeParams.SSID)) {
-			showPopup("Warning: No SSID given, setting on the fist one available");
+			showPopup("You didn't give an SSID, idiot. Setting the FIRST available one.");
 		}
 		return true;
 	}
